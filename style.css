@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0
+}
+
+nav {
+    background-color:  #fc0384;
+    height: 5vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+#main-link {
+    text-decoration: none;
+    color: white;
+    margin-left: 3vh;
+}
+
+main {
+    padding: 6vh 3vh;
+}
+
+h1, h3{
+    color: mediumaquamarine
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+footer {
+    position: fixed;
+    height: 8vh;
+    background-color: mediumaquamarine;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+#message {
+    margin-left: 3vh;
+}
