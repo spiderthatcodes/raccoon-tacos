@@ -46,3 +46,7 @@ footer {
 #message {
     margin-left: 3vh;
 }
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
